@@ -1,0 +1,14 @@
+pu_daysoverdue: |-
+    =
+    If(IsBlank(pu_datereturned),
+    //What to do if it hasn't been returned
+    If(
+    //Condition
+    RoundDown(DateDiff(pu_datedue,Now(),TimeUnit.Minutes)/1440,0)<0,
+    // What to do if it is not overdue
+    0,
+    //This is what to present if it is overdue
+    RoundDown(DateDiff(pu_datedue,Now(),TimeUnit.Minutes)/1440,0)),
+    //What to do if it has been returned
+    0)
+pu_isoverdue: =If(pu_daysoverdue>0,true,false)

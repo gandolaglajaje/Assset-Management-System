@@ -1,0 +1,143 @@
+<ImportExportXml version="9.2.25031.228" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25031.228" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25031.00228">
+  <SolutionManifest>
+    <UniqueName>AssetManagementSystem</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Asset Management System" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>GlajajeGandola</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Glajaje Gandola" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>gcg</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>80379</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="contact" behavior="1" />
+      <RootComponent type="1" schemaName="dt_asset" behavior="0" />
+      <RootComponent type="1" schemaName="dt_assetalocation" behavior="0" />
+      <RootComponent type="1" schemaName="gcg_asset" behavior="0" />
+      <RootComponent type="1" schemaName="gcg_assetallocationprocess" behavior="0" />
+      <RootComponent type="1" schemaName="gcg_assetcheck" behavior="0" />
+      <RootComponent type="1" schemaName="gcg_assetlocation" behavior="0" />
+      <RootComponent type="1" schemaName="pu_bookcopies" behavior="0" />
+      <RootComponent type="1" schemaName="pu_loans" behavior="0" />
+      <RootComponent type="9" schemaName="gcg_allocationcheck" behavior="0" />
+      <RootComponent type="9" schemaName="gcg_allocationstatus" behavior="0" />
+      <RootComponent type="9" schemaName="gcg_approvalstatus" behavior="0" />
+      <RootComponent type="29" id="{245576ae-a70f-f011-9988-6045bd09e2d2}" behavior="0" />
+      <RootComponent type="29" id="{ff6765a6-9d0f-f011-9988-6045bd09e2d2}" behavior="0" />
+      <RootComponent type="60" id="{a984591b-7110-f011-998a-6045bd09e2d2}" behavior="0" />
+      <RootComponent type="60" id="{b46973ee-6c10-f011-998a-6045bd09e2d2}" behavior="0" />
+      <RootComponent type="62" schemaName="gcg_AssetManagementApp" behavior="0" />
+      <RootComponent type="80" schemaName="gcg_AssetManagementApp" behavior="0" />
+      <RootComponent type="431" schemaName="contact gcg_profilepicture" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="dt_assetcheck" displayName="Asset Check" solution="Active" />
+        <Dependent type="1" schemaName="dt_assetalocation" displayName="Asset Allocations" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="pu_bookname" displayName="BookName" parentSchemaName="pu_book" parentDisplayName="Books" solution="Active" />
+        <Dependent type="10" schemaName="pu_pu_bookcopies_Book_pu_book" displayName="pu_pu_bookcopies_Book_pu_book" parentSchemaName="pu_book" parentDisplayName="Books" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Books" solution="Active" id="{79544872-aed3-4d5b-8f85-cc2cda50504d}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="BookCopies" id="{4f3fb441-086e-4245-a472-21fb99e76acb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="gcg_AssetManagementApp" displayName="Asset Management App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2503.1002)">
+          <package appName="Base Custom Controls" version="9.0.2503.1002">BaseCustomControlsCore (9.0.2503.1002)</package>
+        </Required>
+        <Dependent type="60" displayName="Asset Allocation main form" parentDisplayName="Asset Allocation" id="{09cda737-9a0f-f011-9988-6045bd09e2d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Rating.StarRatingControl" displayName="MscrmControls.Rating.StarRatingControl" solution="CustomControlsCore (9.2.25031.00228)">
+          <package appName="Custom Controls Package" version="9.2.25031.00228">CustomControlsCore (9.2.25031.00228)</package>
+        </Required>
+        <Dependent type="60" displayName="Asset Check main form" parentDisplayName="Asset Check" id="{68b388ae-840f-f011-9988-6045bd09e2d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="pu_checkoutstatus" displayName="CheckOutStatus" solution="Active" />
+        <Dependent type="2" schemaName="pu_checkoutstatus" displayName="CheckOutStatus" parentSchemaName="pu_bookcopies" parentDisplayName="BookCopies" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.12)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.17">PowerAppsAppFramework_Anchor (1.0.0.17)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=gcg_AssetManagementApp,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="gcg_AssetManagementApp" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
